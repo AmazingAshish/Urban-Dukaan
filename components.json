@@ -1,16 +1,16 @@
 {
-  "$schema": "https://ui.shadcn.com/schema.json",
-  "style": "default",
-  "rsc": true,
-  "tsx": true,
+  "$schema": "https://ui.shadcn.com/schema.json", // Schema URL for validation
+  "style": "default", 
+  "rsc": true, // Enable React Server Components
+  "tsx": true, // Enable TypeScript with JSX
   "tailwind": {
-    "config": "tailwind.config.js",
-    "css": "app/globals.css",
-    "baseColor": "slate",
-    "cssVariables": true
+    "config": "tailwind.config.js", 
+    "css": "app/globals.css", 
+    "baseColor": "slate", // Base colour for the Tailwind theme
+    "cssVariables": true // Enable CSS variables
   },
   "aliases": {
-    "components": "@/components",
-    "utils": "@/lib/utils"
+    "components": "@/components", 
+    "utils": "@/lib/utils" 
   }
 }
