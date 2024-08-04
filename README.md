@@ -22,15 +22,18 @@ You can view a live demo of the Urban Dukaan website [here](https://amazingashis
 - **Theme Changer:** Switch between different themes.
 - **Cart Functionality:** Add items to the cart, view cart items, and proceed to checkout.
 - **Beautiful UI:** Modern and visually appealing design.
-- **Modular Code:** Clean and maintainable code with a focus on reusability.
+- **Modular Code:** Clean and maintainable code focusing on reusability.
 
 ## Technologies
 
+- **NextJs**
+- **ReactJs**
 - **HTML**
-- **CSS**
 - **JavaScript**
 - **Bootstrap**
 - **Tailwind CSS**
+- **Shadcn/ui**
+  
 
 ## Installation
 
@@ -59,18 +62,18 @@ To get a local copy up and running, follow these simple steps:
 4. **Start the development server:**
 
     ```bash
-    npm start
+    npm run dev
     ```
 
     This will start the Tailwind CSS watcher.
 
 ## Usage
 
-Open the `index.html` file in your browser to view the website locally. You can also navigate through the different pages like `shop.html`, `cart.html`, `sproduct.html`, etc.
+Open your browser's `index.html` file to view the website locally. You can also navigate through the different pages like `shop.html`, `cart.html`, `sproduct.html`, etc.
 
 ## Contributing
 
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
@@ -82,6 +85,3 @@ Contributions are what make the open-source community such an amazing place to l
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
----
-
-Feel free to customize this README to better fit your project's specifics or style preferences.
